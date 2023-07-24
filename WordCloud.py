@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Read text
-text = open('sampletext1.txt').read()
+text = open('sampletext.txt').read()
 
 # Read mask image
 mask = np.array(Image.open('cloud.png').convert('L'))
