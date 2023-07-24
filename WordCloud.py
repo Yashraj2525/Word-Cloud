@@ -16,8 +16,11 @@ wordcloud = WordCloud(mask=mask, contour_width=3, contour_color='black', stopwor
 # Generate word cloud
 wordcloud.generate(text)
 
-# Save word cloud
-wordcloud.to_file('custom_wordcloud.png')
+# Get array representation
+wc_array = wordcloud.to_array()
+
+# Save word cloud instead of showing the output it save to the file name "custom_wordcloud.png"
+# wordcloud.to_file('custom_wordcloud.png')
 
 # Show word cloud
 plt.imshow(wordcloud, interpolation='bilinear')
