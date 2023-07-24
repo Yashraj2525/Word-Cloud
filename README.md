@@ -12,6 +12,7 @@ The main steps are:
 
   The output word cloud image (custom_wordcloud.png) will be displayed and can also be saved to file.
 
+  A Jupyter Notebook (WordCloud.ipynb) is provided to demonstrate the code in action.
 
 Customization
 
